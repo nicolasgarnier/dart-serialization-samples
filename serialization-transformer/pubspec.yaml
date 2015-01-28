@@ -1,0 +1,13 @@
+name: serialization-transformer-serialization-test
+version: 0.0.1
+description: Testing serialization with Serialization using Code generation by transformer.
+dependencies:
+  serialization:
+    path: ../../../workspace/serialization.dart
+transformers:
+- serialization:
+    files:
+    - bin/test.dart
+dependency_overrides:
+  serialization:
+    path: ../../../workspace/serialization.dart

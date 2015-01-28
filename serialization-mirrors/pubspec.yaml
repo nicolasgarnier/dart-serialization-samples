@@ -1,0 +1,6 @@
+name: serialization-mirrors-serialization-test
+version: 0.0.1
+description: Testing serialization with Serialization using Mirrors.
+dependencies:
+  browser: any
+  serialization: ">=0.10.3 <0.11.0"

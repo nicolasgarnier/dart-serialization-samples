@@ -1,0 +1,9 @@
+name: dartson-mirrors-serialization-test
+version: 0.0.1
+description: Testing serialization with Dartson using Mirrors
+dependencies:
+  browser: any
+  dartson:
+    git:
+      url: git://github.com/eredo/dartson.git
+      ref: 0.2.0-beta
