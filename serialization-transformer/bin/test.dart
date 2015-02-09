@@ -1,9 +1,11 @@
 import 'package:serialization/serialization.dart';
+import 'test_serialization_rules.dart' as s;
 import 'dart:convert' show JSON;
 
 void main() {
 
   var serialization = new Serialization();
+  s.rules.values.forEach(serialization.addRule);
 
   Person jerome = new Person()
     ..id = 228
