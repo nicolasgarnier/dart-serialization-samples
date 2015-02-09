@@ -22,9 +22,8 @@ void main() {
     ..children.add(sarah);
 
   Uint8List personBuffer = bob.writeToBuffer();
-  String personBufferString = new String.fromCharCodes(personBuffer);
 
-  print("Serialized Person as Buffer: $personBufferString");
+  print("Serialized Person as Buffer size: ${personBuffer.length}");
 
   String personJson = bob.writeToJson();
 
