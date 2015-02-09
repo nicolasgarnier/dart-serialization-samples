@@ -21,15 +21,11 @@ void main() {
     ..children.add(jerome)
     ..children.add(sarah);
 
-  Uint8List personBuffer = bob.writeToBuffer();
-
-  print("Serialized Person as Buffer size: ${personBuffer.length}");
-
   String personJson = bob.writeToJson();
 
-  print("Serialized Person as JSON: $personJson");
+  print("Serialized Person: $personJson");
 
-  Person deserializedPerson = new Person.fromBuffer(personBuffer);
+  Person deserializedPerson = new Person.fromJson(personJson);
 
   String allKidsName = deserializedPerson.children.fold("", (String concat, Person child) =>  "${child.name}, $concat");
 

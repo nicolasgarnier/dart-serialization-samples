@@ -1,0 +1,6 @@
+message Person {
+    required int32 id = 1;
+    required string name = 2;
+    required uint64 date_of_birth = 3;
+    repeated Person children = 4;
+}
