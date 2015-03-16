@@ -40,28 +40,6 @@ All files in the project must start with the following header:
     // See the License for the specific language governing permissions and
     // limitations under the License.
 
-Unless you are modifying files located under the `/web` or the `/lib` directory
-which contain files copied from the [Todo MVC](https://github.com/tastejs/todomvc)
-project. In this case you must use the following header instead:
-
-    // This file is MIT License.
-    // Copyright (c) Addy Osmani, Sindre Sorhus, Pascal Hartig, Stephen Sawchuk.
-    // Permission is hereby granted, free of charge, to any person obtaining a copy
-    // of this software and associated documentation files (the "Software"), to deal
-    // in the Software without restriction, including without limitation the rights
-    // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    // copies of the Software, and to permit persons to whom the Software is
-    // furnished to do so, subject to the following conditions:
-    // The above copyright notice and this permission notice shall be included in
-    // all copies or substantial portions of the Software.
-    // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    // AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-    // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-    // IN THE SOFTWARE.
-
 ### The small print
 
 Contributions made by corporations are covered by a different agreement than the
